@@ -126,7 +126,8 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground;
+    background: transparent;
   }
 }
 
@@ -187,6 +188,7 @@
 
 html {
   font-size: var(--font-size);
+  background: #ffffff;
 }
 
 /* Hide scrollbar for testimonials section */
@@ -197,4 +199,31 @@ html {
 .scrollbar-hide {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+/* Subtle circle grid background */
+.circle-grid-bg {
+  background-image: radial-gradient(circle, #e0e0e0 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Custom cursor - default arrow */
+html, body {
+  cursor: url("/src/assets/cursor.svg") 1 1, auto;
+}
+
+*, *::before, *::after {
+  cursor: inherit;
+}
+
+/* Pointer cursor for interactive elements */
+button,
+a,
+[role="button"],
+input[type="submit"],
+input[type="button"],
+label,
+select,
+.cursor-pointer {
+  cursor: url("/src/assets/cursor-hand.svg") 14 1, pointer;
 }

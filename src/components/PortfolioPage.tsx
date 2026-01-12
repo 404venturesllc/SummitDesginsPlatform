@@ -36,7 +36,8 @@ export default function PortfolioPage() {
   ];
 
   return (
-    <div className="bg-[linear-gradient(to_right,#f0f8ff_0%,white_20%,white_80%,#f0f8ff_100%)] min-h-screen w-full">
+    <div className="bg-[linear-gradient(to_right,#f0f8ff_0%,white_20%,white_80%,#f0f8ff_100%)] min-h-screen w-full relative">
+      {/* Vertical side lines are rendered by SectionDivider components */}
       {/* Header */}
       <header className="bg-white border border-[#b3b3b3] border-solid rounded-[15px] shadow-[0px_2px_4px_0px_rgba(0,0,0,0.25)] mx-4 my-5 md:mx-5 lg:mx-5 p-4 md:p-5">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 max-w-[960px] mx-auto">

@@ -1,19 +1,14 @@
-import logoSvgPaths from "../imports/svg-puci8y41ai";
+import summitLogo from "../assets/summit.svg";
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-t border-[#b3b3b3] border-solid mt-20">
+    <footer className="bg-[#F4F4F4] mt-20">
       <div className="max-w-[960px] mx-auto px-4 md:px-5 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Logo and Description */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <svg className="w-[25px] h-[25px]" fill="none" preserveAspectRatio="none" viewBox="0 0 25 25">
-                <path d={logoSvgPaths.p3d6c3700} fill="#1E1E1E" />
-                <path d={logoSvgPaths.p2fb27a00} fill="#1E1E1E" />
-                <path d={logoSvgPaths.p30dd9680} fill="#1E1E1E" />
-              </svg>
-              <span className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold text-[#1e1e1e] text-[20px]">Summit</span>
+              <img src={summitLogo} alt="Summit" className="h-[25px] w-auto" />
             </div>
             <p className="font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal text-neutral-600 text-[13px] leading-relaxed">
               Revolutionizing web design with AI-powered scheduling and automation.
