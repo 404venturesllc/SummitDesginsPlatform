@@ -39,8 +39,9 @@ export default function PortfolioPage() {
     <div className="bg-[linear-gradient(to_right,#f0f8ff_0%,white_20%,white_80%,#f0f8ff_100%)] min-h-screen w-full relative">
       {/* Vertical side lines are rendered by SectionDivider components */}
       {/* Header */}
-      <header className="bg-white border border-[#b3b3b3] border-solid rounded-[15px] shadow-[0px_2px_4px_0px_rgba(0,0,0,0.25)] mx-4 my-5 md:mx-5 lg:mx-5 p-4 md:p-5">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-4 max-w-[960px] mx-auto">
+      <header className="bg-white border border-[#b3b3b3] border-solid rounded-[15px] shadow-[0px_2px_4px_0px_rgba(0,0,0,0.25)] p-3 md:p-4 mx-auto my-2"
+        style={{ maxWidth: '875px' }}>
+        <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <a href="#home" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
             <div className="w-[60px] h-[26px] relative">
               <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 80 34">

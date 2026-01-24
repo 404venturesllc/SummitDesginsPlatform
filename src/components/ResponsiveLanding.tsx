@@ -178,7 +178,7 @@ export default function ResponsiveLanding() {
                 </div>
               </div>
               <a href="#wall-of-love" onClick={(e) => scrollToSection(e, 'wall-of-love')} className="font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal text-[#1d1d1d] text-[13px] cursor-pointer">Results</a>
-              <a href="#portfolio" onClick={(e) => scrollToSection(e, 'portfolio')} className="font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal text-[#1d1d1d] text-[13px] cursor-pointer">Portfolio</a>
+              <a href="#portfolio" className="font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal text-[#1d1d1d] text-[13px] cursor-pointer">Portfolio</a>
               <a href="#how-it-works" onClick={(e) => scrollToSection(e, 'how-it-works')} className="font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal text-[#1d1d1d] text-[13px] cursor-pointer">About</a>
             </nav>
 
